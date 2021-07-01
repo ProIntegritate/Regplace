@@ -7,7 +7,7 @@ Replace with pattern regexp. Bulk processing of logs.
 # Examples:
 
 *Anonymize specific ips*
-- Regplace.exe f.txt "\|100.64." "|x.x." 
+- Regplace.exe file.log ", 100.64." ", x.x." 
 
 *Remove part of string*
-- Regplace.exe f.txt ",[0-9]{6}" "" 
+- Regplace.exe file.log "This is crap and needs to be removed" "" 
