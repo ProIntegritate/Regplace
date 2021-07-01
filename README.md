@@ -2,7 +2,7 @@
 
 Replace with pattern regexp. Bulk processing of logs.
 
-<img src="regplace.png">
+<img src="Regplace.png">
 
 # Examples:
 
